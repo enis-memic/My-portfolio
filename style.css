@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: #e5e5e5;
   top: 0;
@@ -9,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 section {
   position: relative;
   top: 48px;
@@ -26,18 +28,19 @@ a {
   text-decoration: none;
   color: #344563;
 }
+
 header {
   background-color: #fff;
 }
+
 li {
   list-style: none;
 }
+
 .header-section {
   position: absolute;
-  width: 375px;
-  height: 718px;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,17 +48,20 @@ li {
   height: 50px;
   padding: 14px 24px;
 }
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   color: #6070ff;
 }
+
 .intro-section {
   background-color: #fff;
   min-width: 375px;
   padding-top: 80px;
 }
+
 .intro-header {
   color: #172b4d;
   font-weight: 700;
@@ -66,12 +72,14 @@ li {
   display: flex;
   align-items: center;
 }
+
 .intro-intro {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   background-image: none;
 }
+
 .connect {
   font-weight: 500;
   font-size: 16px;
@@ -80,6 +88,7 @@ li {
   text-decoration: none;
   margin-top: 30px;
 }
+
 .connect-icons {
   display: flex;
   margin-top: 20px;
