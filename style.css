@@ -265,9 +265,11 @@ li {
   color: #000;
   margin-left: -30px;
 }
+
 .flex-sidebar {
   display: flex;
 }
+
 .sidebar {
   margin-top: 5px;
 }
