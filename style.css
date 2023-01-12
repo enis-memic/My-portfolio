@@ -60,6 +60,7 @@ li {
   background-color: #fff;
   min-width: 375px;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .intro-header {
@@ -107,7 +108,163 @@ li {
   background-color: #fff;
   border: 0.2rem solid #e5e5e5;
   border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.project:last-child {
+  margin-bottom: 50px;
+}
+.project-img {
+  width: 295px;
+  height: 220px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.project-name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: 30px;
+}
+.project-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+.project-client {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+.programming-language {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+.year {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+.project-details {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 35px;
+  margin-right: 25px;
+}
+.languages {
+  display: flex;
+  gap: 10px;
+  margin-left: -8px;
+}
+.dev-tool {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 10px;
+  border: 8px solid #ebebff;
+}
+.btn {
+  width: 120px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #396df2;
   margin-top: 10px;
-  margin-left: -10px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+  transform: translate(5px, 0);
+  transition: 0.5s all;
+}
+.btn:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn:visited {
+  color: #5e6c84;
+}
+.about-me-section {
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0 10% 0 0;
+  padding-top: 50px;
+}
+
+.about-me-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+.btn--resume {
+  width: 160px;
+  height: 50px;
+  margin-left: -1.5px;
+}
+.tools {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs-bottom-line {
+  margin-top: -10px;
+  box-shadow: 0 1px #dfe1e6;
+}
+.tabs-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: -30px;
+}
+.sidebar {
+  margin-top: 5px;
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-left: -30px;
+  margin-top: 10px;
+  height: 60px;
+}
+.elements-img {
+  margin-left: 10px;
+}
+.elements-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 20px;
 }
