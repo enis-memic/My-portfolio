@@ -6,7 +6,7 @@
 
 </div>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
 > This is my portfolio website, for this part of the project I only did the mobile version of the header
 
