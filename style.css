@@ -96,3 +96,18 @@ li {
   align-items: center;
   gap: 10px;
 }
+.works-section {
+  background-color: #e5e5e5;
+  background-image: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+}
+.project {
+  background-color: #fff;
+  border: 0.2rem solid #e5e5e5;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-bottom: 70px;
+}
