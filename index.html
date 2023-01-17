@@ -315,22 +315,26 @@
         that you need built or a project that needs coding. I'd love to help
         with it
       </p>
-      <form action="https://formspree.io/f/xayznonn" method="POST">
-        <input
+      <form action="https://formspree.io/f/xayznonn" method="POST" >
+       
+        <div class="input">
+        <input class="contact-input"
           type="text"
           name="name"
           placeholder="Name"
           maxlength="30"
           required
         />
-        <input type="email" name="email" placeholder="Email" required />
-        <textarea
+      </div>
+      <div class="input">
+      <input class="contact-input" type="email" name="email" placeholder="Email" required /></div>
+        <textarea class="contact-input text-area"
           name="message"
           maxlength="500"
           placeholder="Write your message here"
           required
         ></textarea>
-        <button type="submit" class="btn-contact">Get in touch</button>
+        <button  type="submit" class="btn-contact">Get in touch</button>
       </form>
     </section>
   </body>
