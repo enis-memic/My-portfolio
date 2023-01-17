@@ -5,6 +5,19 @@
   <h3><b>My Portfolio mobile version</b></h3>
 
 </div>
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 # 📖 My Portfolio <a name="about-project"></a>
 
@@ -17,6 +30,22 @@
 - Linters standards
 
 - Github flow
+
+### Key Features <a name="key-features"></a>
+
+- **[grid]**
+- **[flex]**
+- **[multiple sections]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://enis-memic.github.io/My-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
