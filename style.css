@@ -20,8 +20,6 @@ section {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 0 0 0 80px;
-  height: calc(36.75rem + 1.6781rem);
-  width: 100vw;
   padding-bottom: 50px;
 }
 
@@ -62,6 +60,8 @@ li {
   min-width: 375px;
   padding-top: 80px;
   padding-bottom: 80px;
+  height: calc(36.75rem + 1.6781rem);
+  width: 100vw;
 }
 
 .intro-header {
@@ -318,7 +318,7 @@ li {
   width: 90%;
   text-align: center;
   padding-top: 25px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -372,4 +372,80 @@ li {
   color: #6070ff;
   border-radius: 8px;
   margin-left: 0;
+}
+@media (min-width: 768px) {
+  section {
+    background-image: url(/images/header-d-background.svg);
+    background-origin: padding-box;
+    background-position: center;
+    padding: 22.4375rem 12% 15.9375rem;
+  }
+  .intro-header {
+    width: 69%;
+  }
+  .intro-intro {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .works-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+  }
+  .about-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .project-img {
+    width: 95%;
+    height: 90%;
+    padding-right: 40px;
+  }
+
+  .project-reverse {
+    order: -1;
+  }
+  .about-me-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    border-top-right-radius: 80px;
+  }
+  .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 120px;
+    gap: 5px;
+  }
+  .elements-img {
+    margin: 0;
+  }
+  .elements-text {
+    margin: 0;
+  }
+  .side-language {
+    display: flex;
+    gap: 60px;
+  }
+  .contact-section {
+    background-image: url(/images/contact-form-d-bg.svg);
+    background-size: 100% 100%;
+  }
+  .contact-text {
+    max-width: 600px;
+  }
+  .contact-input {
+    width: 385px;
+  }
 }
