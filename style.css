@@ -465,7 +465,7 @@ li {
 
   .about-me-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.5fr 2.5fr;
     gap: 40px;
     border-top-right-radius: 120px;
     padding-bottom: 100px;
@@ -491,7 +491,7 @@ li {
 
   .side-language {
     display: flex;
-    gap: 60px;
+    gap: 40px;
   }
 
   .contact-section {
