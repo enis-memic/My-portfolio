@@ -54,9 +54,11 @@ li {
   text-align: center;
   color: #6070ff;
 }
+
 .navigation-links {
   display: none;
 }
+
 .nav-links {
   font-style: normal;
   font-weight: 500;
@@ -69,9 +71,11 @@ li {
   gap: 40px;
   text-decoration: none;
 }
+
 .hover-menu:hover {
   color: #2230d2;
 }
+
 .intro-section {
   background-color: #fff;
   min-width: 375px;
@@ -391,9 +395,11 @@ li {
   border-radius: 8px;
   margin-left: 0;
 }
+
 .contact-footer {
   background: #fff;
 }
+
 @media (min-width: 768px) {
   section {
     background-image: url(/images/header-d-background.svg);
@@ -402,41 +408,50 @@ li {
     padding: 22.4375rem 12% 15.9375rem;
     border-bottom-left-radius: 100px;
   }
+
   .header-logo {
     margin-left: 80px;
   }
+
   .navigation-links {
     display: inline;
     margin-right: 40px;
   }
+
   .mobile-menu {
     display: none;
   }
+
   .intro-header {
     width: 69%;
   }
+
   .intro-intro {
     font-size: 20px;
     line-height: 28px;
   }
+
   .works-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .project {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
     margin-right: 40px;
   }
+
   .about-project {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
   }
+
   .project-img {
     width: 95%;
     height: 95%;
@@ -447,6 +462,7 @@ li {
   .project-reverse {
     order: -1;
   }
+
   .about-me-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -454,6 +470,7 @@ li {
     border-top-right-radius: 120px;
     padding-bottom: 100px;
   }
+
   .elements {
     display: flex;
     flex-direction: column;
@@ -463,25 +480,31 @@ li {
     height: 120px;
     gap: 5px;
   }
+
   .elements-img {
     margin: 0;
   }
+
   .elements-text {
     margin: 0;
   }
+
   .side-language {
     display: flex;
     gap: 60px;
   }
+
   .contact-section {
     background-image: url(/images/contact-form-d-bg.svg);
     background-size: 100% 100%;
     border-top-left-radius: 120px;
     padding-top: 170px;
   }
+
   .contact-text {
     max-width: 600px;
   }
+
   .contact-input {
     width: 385px;
   }
