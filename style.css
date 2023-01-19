@@ -223,15 +223,16 @@ li {
   margin-bottom: 20px;
   margin-left: 40px;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn:hover {
   background: #6070ff;
+  transform: translate(5px, 0);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  color: #fff;
-  transform: translate(5px, 0);
   transition: 0.5s all;
+  color: #fff;
 }
 
 .btn:active {
