@@ -403,7 +403,7 @@ li {
 
 @media (min-width: 768px) {
   section {
-    background-image: url(/images/header-d-background.svg);
+    background-image: url(/images/desktop-header.png);
     background-origin: padding-box;
     background-position: center;
     padding: 22.4375rem 12% 15.9375rem;
