@@ -31,6 +31,8 @@
 
 - Github flow
 
+- Github pages
+
 ### Key Features <a name="key-features"></a>
 
 - **[grid]**
@@ -40,8 +42,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://enis-memic.github.io/My-portfolio/)
 
