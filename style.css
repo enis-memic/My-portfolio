@@ -16,7 +16,7 @@ section {
   top: 48px;
   padding-left: 24px;
   padding-right: 24px;
-  background-image: url('images/header-m-background.svg');
+  background-image: url('./images/header-m-background.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 0 0 0 80px;
@@ -326,7 +326,7 @@ li {
   background-color: #6070ff;
   border-top-left-radius: 80px;
   width: 100%;
-  background-image: url(/images/contact-form-m-bg.svg);
+  background-image: url(./images/contact-form-m-bg.svg);
   background-size: 50%;
   background-position: right;
   background-repeat: no-repeat;
@@ -403,7 +403,7 @@ li {
 
 @media (min-width: 768px) {
   section {
-    background-image: url(/images/header-d-background.svg);
+    background-image: url(./images/header-d-background.svg);
     background-origin: padding-box;
     background-position: center;
     padding: 22.4375rem 12% 15.9375rem;
@@ -496,7 +496,7 @@ li {
   }
 
   .contact-section {
-    background-image: url(/images/contact-form-d-bg.svg);
+    background-image: url(./images/contact-form-d-bg.svg);
     background-size: 100% 100%;
     border-top-left-radius: 120px;
     padding-top: 170px;
