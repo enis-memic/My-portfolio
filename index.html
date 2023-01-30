@@ -15,12 +15,32 @@
   </head>
   <body>
     <header class="header-section">
+      <div class="mobile-main-menu">
+        <img
+          src="images/closemenu1-removebg-preview.png"
+          class="closing-icon"
+          alt="Icon of closing"
+        />
+        <ul class="right-sidebar">
+          <li class="menu-li">
+            <a class="nav-link" href="#portfolio"> Portfolio </a>
+          </li>
+          <li class="menu-li">
+            <a class="nav-link" href="#about"> About</a>
+          </li>
+          <li class="menu-li">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
       <a class="header-logo" href="#">
         <h2>My Logo</h2>
       </a>
 
       <nav class="mobile-menu">
-        <img src="images/Enabled.png" alt="Picture of the mobile menu" />
+        <div class="nav-right">
+          <img src="images/Enabled.png" alt="Picture of the mobile menu" />
+        </div>
       </nav>
       <nav class="navigation-links">
         <ul class="nav-links">
@@ -90,14 +110,14 @@
         </li>
       </ul>
     </section>
-    <section class="works-section">
+    <section class="works-section" id="portfolio">
       <div class="project tonic-project">
         <img
           class="project-img"
           src="images/Snapshoot Portfolio.png"
           alt="Snapshoot of the Portfolio project"
         />
-        <div class="about-project ">
+        <div class="about-project">
           <h2 class="project-name">Tonic</h2>
           <nav class="project-nav">
             <h4 class="project-client">Canopy</h4>
@@ -120,7 +140,7 @@
           <button type="submit" class="btn">See Project</button>
         </div>
       </div>
-      <div class="project  mp-stories-project">
+      <div class="project mp-stories-project">
         <img
           class="project-img"
           src="images/Snapshoot Portfolio2.png"
@@ -202,7 +222,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me-section">
+    <section class="about-me-section" id="about">
       <div class="about-me">
         <h2 class="about-me-header">
           About <br />
@@ -320,38 +340,49 @@
       </div>
     </section>
     <footer class="contact-footer">
-    <section class="contact-section" id="contact">
-      <h2 class="contact-title">Contact me</h2>
-      <p class="contact-text">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I'd love to help
-        with it
-      </p>
-      <form action="https://formspree.io/f/xayznonn" method="POST" >
-       
-        <div class="input">
-        <input class="contact-input"
-          type="text"
-          name="name"
-          placeholder="Name"
-          maxlength="30"
-          required
-        />
-      </div>
-      <div class="input">
-      <input class="contact-input" type="email" name="email" placeholder="Email" required /></div>
-        <textarea class="contact-input text-area"
-          name="message"
-          maxlength="500"
-          placeholder="Write your message here"
-          required
-        ></textarea>
-        <input 
-         type="submit" 
-        value="Get in touch"
-        class="btn btn-contact submit"></input>
-      </form>
-    </section>
-  </footer>
+      <section class="contact-section" id="contact">
+        <h2 class="contact-title">Contact me</h2>
+        <p class="contact-text">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I'd love to help
+          with it
+        </p>
+        <form action="https://formspree.io/f/xayznonn" method="POST">
+          <div class="input">
+            <input
+              class="contact-input"
+              type="text"
+              name="name"
+              placeholder="Name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div class="input">
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <textarea
+            class="contact-input text-area"
+            name="message"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <input
+            type="submit"
+            value="Get in touch"
+            class="btn btn-contact submit"
+          />
+        </form>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
