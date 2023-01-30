@@ -66,6 +66,11 @@ To get a local copy up and running, follow these steps.
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [Enis Memic](https://linkedin.com/in/enis-memic)
 
+👤 **Author2**
+
+- GitHub: [@LethaboMot](https://github.com/LethaboMot)
+- Twitter: [@profcipher](https://twitter.com/profcipher)
+- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
