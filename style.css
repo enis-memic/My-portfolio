@@ -404,7 +404,119 @@ li {
   background: #fff;
 }
 
+.backdrop {
+  position: fixed;
+  background: #c1c7d090;
+  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+}
+
+.popup {
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  transform: translate(-50%, 0);
+  width: 80%;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.popup-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-header h1 {
+  justify-self: flex-start;
+  align-self: start;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.exit {
+  align-self: flex-start;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.popup-data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: -1.5rem;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+.popup-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup .languages {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.btn-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-container .btn-div {
+  border-top: 1px solid #dfe1e6;
+}
+
+.popup .btn {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.popup .btn img {
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 768px) {
+  .popup-flex {
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+    align-items: flex-start;
+  }
+
+  .popup-paragraph {
+    margin-right: 2rem;
+  }
+
   section {
     background-image: url(./images/header-d-background.svg);
     background-origin: padding-box;
