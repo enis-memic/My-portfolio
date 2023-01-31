@@ -1,4 +1,5 @@
 import projectsData from './data.js';
+import Popup from './popup.js';
 
 const Article = (project, index) => {
   const mainDiv = document.createElement('div');
@@ -18,6 +19,7 @@ const Article = (project, index) => {
   }
 
   const h2 = document.createElement('h2');
+  h2.innerText = project.name;
   h2.className = 'project-name';
   div.appendChild(h2);
 
@@ -69,9 +71,9 @@ const Article = (project, index) => {
   const button = document.createElement('button');
   button.className = 'btn';
   button.innerText = 'See project';
-  // button.addEventListener('click', () => {
-  //     Popup(project)
-  // })
+  button.addEventListener('click', () => {
+    Popup(project);
+  });
   div.appendChild(button);
 
   return mainDiv;
