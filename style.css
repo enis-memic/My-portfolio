@@ -506,6 +506,14 @@ li {
   margin-left: 0.5rem;
 }
 
+.error {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .popup-flex {
     display: grid;
