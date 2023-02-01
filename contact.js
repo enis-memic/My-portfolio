@@ -9,6 +9,6 @@ const submit = document
     if (!right(email)) {
       e.preventDefault();
       errorEmail.textContent =
-        'Please check if your email is in correct form of using all lowercase letters!';
+        'Please check if your email is in lowercase letters!!!';
     }
   });
