@@ -92,4 +92,5 @@ const Popup = (project) => {
   button2.append(icon2);
   btnDiv.appendChild(button2);
 };
+
 export default Popup;
