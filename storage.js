@@ -2,14 +2,14 @@ const fullName = document.getElementById('contact-name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 
-const storeData = function () {
+function storeData() {
   const data = {
     userName: fullName.value,
     userEmail: email.value,
     userMessage: message.value,
   };
   localStorage.setItem('form', JSON.stringify(data));
-};
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   const newData = localStorage.getItem('form');
@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     message.value = mainData.userMessage;
   }
 });
+
 fullName.onchange = storeData;
 email.onchange = storeData;
 message.onchange = storeData;
