@@ -507,9 +507,7 @@ li {
 }
 
 .error {
-  background-color: #f12720;
-  padding: 3px;
-  color: #ebebff;
+  color: #f12720;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
