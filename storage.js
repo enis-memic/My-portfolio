@@ -20,3 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     message.value = mainData.userMessage;
   }
 });
+fullName.onchange = storeData;
+email.onchange = storeData;
+message.onchange = storeData;
