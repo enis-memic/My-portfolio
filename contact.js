@@ -4,8 +4,9 @@ document.querySelector('.submit').addEventListener('click', (e) => {
 
   const right = (str) => str === str.toLowerCase();
 
-  if (!right(email)) {
+  if (right(email)) {
     e.preventDefault();
-    errorEmail.textContent = 'Please check if your email is in lowercase letters!!!';
+    errorEmail.textContent =
+      'Please check if your email is in lowercase letters!!!';
   }
 });
