@@ -4,7 +4,7 @@ const projects = [
     client: 'Microverse',
     id: 1,
     year: 2023,
-    img: './images/project1-1',
+    img: './images/project1-1.png',
     technologies: ['html', 'css', 'javascript'],
     paragraph:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
