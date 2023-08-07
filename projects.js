@@ -39,7 +39,7 @@ const Article = (project, index) => {
 
   const span = document.createElement('span');
   span.className = 'programming-language';
-  span.innerText = 'Back End Dev';
+  span.innerText = `${project.dev}-End Dev`;
   nav.appendChild(span);
 
   const img3 = document.createElement('img');
@@ -69,7 +69,7 @@ const Article = (project, index) => {
   });
 
   const button = document.createElement('button');
-  button.className = 'btn';
+  button.className = 'btn primary-btn';
   button.innerText = 'See project';
   button.addEventListener('click', () => {
     Popup(project);
