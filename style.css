@@ -141,6 +141,11 @@ h2.dummy-heading {
   margin-right: 10px;
 }
 
+.project:hover {
+  border: 0.125rem solid #a7aeff;
+  filter: drop-shadow(0 3rem 3rem rgb(37 47 137 / 8%));
+}
+
 .project:last-child {
   margin-bottom: 50px;
 }
