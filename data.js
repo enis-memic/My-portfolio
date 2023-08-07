@@ -2,6 +2,7 @@ const projects = [
   {
     name: 'Countries',
     client: 'Microverse',
+    dev: 'Front',
     id: 1,
     year: 2023,
     img: './images/countries-desktop.png',
@@ -16,10 +17,11 @@ const projects = [
   {
     name: 'Budget-app',
     client: 'Microverse',
+    dev: 'Back',
     id: 2,
     year: 2023,
     img: './images/budget-desktop.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'css', 'javascript', 'ruby', 'rails'],
     paragraph:
       'A personal budget app for keeping track of your transactions; accounts and sign-ups required.',
     description:
@@ -30,10 +32,11 @@ const projects = [
   {
     name: 'Recipe-app',
     client: 'Microverse',
+    dev: 'Back',
     id: 3,
     year: 2023,
     img: './images/recipe-desktop.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'css', 'ruby', 'rails'],
     paragraph:
       'Personal app for keeping track of recipes and seeing what is missing from your food list.',
     description:
@@ -44,6 +47,7 @@ const projects = [
   {
     name: 'Leaderboard',
     client: 'Microverse',
+    dev: 'Front',
     id: 4,
     year: 2015,
     img: './images/leaderboard-desktop.png',
