@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e5e5e5;
   top: 0;
@@ -76,6 +80,15 @@ h2.dummy-heading {
   text-decoration: none;
 }
 
+.sticky-nav {
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.active-navlink a {
+  color: #2230d2;
+}
+
 .hover-menu:hover {
   color: #2230d2;
 }
@@ -121,7 +134,11 @@ h2.dummy-heading {
   margin-top: 20px;
   margin-left: -40px;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+
+.connect-icons li:hover {
+  transform: scale(1.2);
 }
 
 .works-section {
@@ -262,7 +279,7 @@ h2.dummy-heading {
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
-  padding: 7.125rem 1.5rem;
+  padding: 3.125rem 1.5rem;
   width: 100vw;
   border-top-right-radius: 5.0625rem;
   background: none;
@@ -410,7 +427,7 @@ h2.dummy-heading {
 
 /* Media Section for the About-section */
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .about-section {
     flex-direction: row;
     gap: 1.5625rem;
@@ -550,10 +567,6 @@ h2.dummy-heading {
   color: #6070ff;
   border-radius: 8px;
   margin-left: 0;
-}
-
-.contact-footer {
-  background: #fff;
 }
 
 .backdrop {
@@ -718,8 +731,6 @@ h2.dummy-heading {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
-
-    /* margin-right: 40px; */
   }
 
   .about-project {
