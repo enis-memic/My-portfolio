@@ -30,19 +30,19 @@ const projects = [
     source: 'https://github.com/enis-memic/budget-app',
   },
   {
-    name: 'Recipe-app',
+    name: 'Europe-Global-Summit',
     client: 'Microverse',
-    dev: 'Back',
+    dev: 'Front',
     id: 3,
     year: 2023,
-    img: './images/recipe-desktop.png',
-    technologies: ['html', 'css', 'ruby', 'rails'],
+    img: './images/europe-screen.png',
+    technologies: ['html', 'css', 'javascript'],
     paragraph:
-      'Personal app for keeping track of recipes and seeing what is missing from your food list.',
+      'Europe-Global-Summit is a project that was given by Microverse. We had to redesign the similar project to this one, but we had to include personal content with or own data and photos.',
     description:
-      'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
-    liveVersion: 'https://recipe-oyd1.onrender.com/',
-    source: 'https://github.com/enis-memic/recipe-app',
+      'This is a website about Europe Global Summit 2023. Europe Summit is a leading Europe series of digital marketing and strategies. This is part of Microverse capstone 1 project.',
+    liveVersion: 'https://enis-memic.github.io/Europe-Global-Summit/',
+    source: 'https://github.com/enis-memic/Europe-Global-Summit',
   },
   {
     name: 'Leaderboard',
